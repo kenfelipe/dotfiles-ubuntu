@@ -1,0 +1,13 @@
+# Set current working dir
+function setw()
+{
+  WD_WRITTEN_FP="$HOME/dotfiles/data/working_directory"
+
+  if [ -f ${WD_WRITTEN_FP} ]; then
+    rm ${WD_WRITTEN_FP}
+  fi
+
+  echo "readonly WORKING_DIRECTORY='`pwd`'" >> $WD_WRITTEN_FP
+  echo "Set current working directory to `pwd`"
+}
+
