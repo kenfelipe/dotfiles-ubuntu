@@ -128,6 +128,9 @@ export NVM_DIR="$HOME/.nvm"
 ####################### Custom Settings #######################
 ###############################################################
 
+# For security
+alias rm='rm -i'
+
 # Alias definitions.
 source "$HOME/.bash_aliases"
 

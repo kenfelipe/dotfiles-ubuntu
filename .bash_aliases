@@ -1,9 +1,9 @@
 # working_directory: there is a current working dir.
 source "$HOME/dotfiles/data/working_directory"
 
-# path
 alias working="cd $WORKING_DIRECTORY"
 
+# path
 alias work="cd $HOME/Workspace"
 alias dot="cd $HOME/dotfiles"
 
