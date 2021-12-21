@@ -142,8 +142,8 @@ export NVM_DIR="$HOME/.nvm"
 alias rm='rm -i'
 
 # Alias definitions.
-source "$HOME/.bash_aliases"
+source "$HOME/dotfiles/.bash_aliases"
 
 # Fucntions
-source "$HOME/.bash_function"
+source "$HOME/dotfiles/.bash_function"
 
