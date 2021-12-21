@@ -1,0 +1,33 @@
+let mapleader = "\<Space>"
+
+inoremap <silent> jj <ESC>
+
+nnoremap j gj
+nnoremap k gk
+
+noremap <C-j> 5gj
+noremap <C-k> 5gk
+
+noremap <C-h> ^
+noremap <C-l> $
+
+nnoremap + <C-a>
+nnoremap - <C-x>
+
+nnoremap x "_x
+nnoremap s "_s
+
+vnoremap p "_dp
+
+nmap ff <Plug>Csurround"'
+nmap tt <Plug>Csurround'"
+
+nmap <Space>' <Plug>Csurround"'
+nmap <Space>" <Plug>Csurround'"
+
+" Open .vimrc: <space> + .
+nnoremap <space>. :<c-u>tabedit $MYVIMRC<CR>
+
+" Cancel searching highlight
+nmap <silent> <Esc><Esc> :nohlsearch<CR>
+

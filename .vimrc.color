@@ -1,0 +1,23 @@
+"----------------------------------------
+" Colorscheme
+"----------------------------------------
+
+augroup MyColors
+	autocmd!
+
+	" Change background color
+	"autocmd ColorScheme * highlight LineNr ctermbg=0
+	"autocmd ColorScheme * highlight Normal ctermbg=0
+
+	" Transparent
+	autocmd ColorScheme * highlight LineNr ctermbg=none
+	autocmd ColorScheme * highlight Normal ctermbg=none
+augroup END
+
+colorscheme molokai
+
+" set background=dark
+set background=light
+
+syntax enable
+
