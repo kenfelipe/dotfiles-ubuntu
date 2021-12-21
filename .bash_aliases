@@ -8,10 +8,17 @@ alias work="cd $HOME/Workspace"
 alias dot="cd $HOME/dotfiles"
 
 # general
+alias vi='vim'
+
 alias mk='touch'
-alias relogin='exec $SHELL -l'
+
 alias cls='clear'
-alias clsworking="working && cls"
+
+alias ls='ls --color -F'
+alias la='ls -A'
+alias ll='ls -lA'
+
+alias relogin='exec $SHELL -l'
 
 # vscode
 alias code='code -n'
