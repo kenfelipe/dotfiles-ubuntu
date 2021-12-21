@@ -19,5 +19,17 @@ colorscheme molokai
 " set background=dark
 set background=light
 
+highlight CursorLine ctermbg=darkmagenta
+highlight CursorColumn ctermbg=darkmagenta
+highlight Visual ctermbg=darkmagenta
+
+" highlight CursorLine ctermbg=darkgray
+" highlight CursorColumn ctermbg=darkgray
+" highlight Visual ctermbg=darkgray
+
+" highlight CursorLine ctermbg=brown
+" highlight CursorColumn ctermbg=brown
+" highlight Visual ctermbg=brown
+
 syntax enable
 
