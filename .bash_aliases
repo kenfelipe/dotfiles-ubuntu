@@ -4,7 +4,8 @@ source "$HOME/dotfiles/data/working_directory"
 alias working="cd $WORKING_DIRECTORY"
 
 # path
-alias work="cd $HOME/Workspace"
+alias work="cd $HOME/workspace"
+alias desk="cd $HOME/desktop"
 alias dot="cd $HOME/dotfiles"
 
 # general
