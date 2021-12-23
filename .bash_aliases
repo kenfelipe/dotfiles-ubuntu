@@ -23,3 +23,6 @@ alias relogin='exec $SHELL -l'
 
 # vscode
 alias code='code -n'
+
+#
+alias cmatrix="cmatrix -s -b -u 6 -C cyan"
