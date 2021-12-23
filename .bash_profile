@@ -11,3 +11,8 @@ PATH="$HOME/dotfiles/bin:${PATH}"
 stty werase undef
 bind '"\C-w": unix-filename-rubout'
 
+#
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+export HISTIGNORE='cd *:vi *:ls:ll:la:pwd:work:working:dot:setw'
+export HISTTIMEFORMAT='%Y/%m/%d %H:%M:%S, '
