@@ -177,4 +177,12 @@ augroup END
 
 
 
+"------------------------------------------------
+" Share the clipboard of OS (needs only on Windows WSL)
+"------------------------------------------------
+augroup Yank
+  au!
+  autocmd TextYankPost * :call system('clip.exe', @")
+augroup END
+
 "set nocursorcolumn
